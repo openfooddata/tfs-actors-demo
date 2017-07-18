@@ -8,19 +8,6 @@ services:
         - ${DATA_DIR}:/data
         - ./config-server.json:/tmp/config.json
         command: /tmp/config.json 3000 ${LDF_WORKERS}
-    server-cache:
-        image: nginx:stable
-        privileged: true
-        ports:
-        - "80:80"
-        volumes:
-        - ./nginx-default:/etc/nginx/sites-enabled/default:ro
-        - ./nginx.conf:/etc/nginx/nginx.conf:ro
-        - ./tmp-cache:/tmp/cache/nginx
-        - ./tmp-nginx:/tmp/nginx
-        - ./logs:/data/log/nginx
-        links:
-        - server
     client-web:
         image: linkeddatafragments/jquery-widget.js
         ports:

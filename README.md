@@ -1,7 +1,7 @@
 # Linked Data Fragments for actors
 
 ## Run
-To start the LDF server, cache and web client, simply run the following command:
+To start the LDF server and web client, simply run the following command:
 
 ```bash
 docker-compose up
