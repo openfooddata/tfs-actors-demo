@@ -2,7 +2,7 @@
   "title": "Value Chain actors from flanders",
 
   "datasources": {
-    "dbpedia": {
+    "actors": {
       "title": "Value Chain actors from flanders",
       "type": "HdtDatasource",
       "description": "actors-belgium-flanders",

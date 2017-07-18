@@ -1,7 +1,11 @@
 {
   "datasources": [
     {
-      "name": "http://localhost:3000",
+      "name": "actors",
+      "url": "http://localhost:3000/actors"
+    },
+    {
+      "name": "index",
       "url": "http://localhost:3000"
     }
   ],
