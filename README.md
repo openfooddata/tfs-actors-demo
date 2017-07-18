@@ -1,4 +1,4 @@
-# Linked Data Fragments for actors
+# Data about actors.
 
 ## Run
 To start the LDF server and web client, simply run the following command:
